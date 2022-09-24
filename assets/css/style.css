@@ -20,6 +20,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-image: url("./assets/img/setup-background.jpg");
 }
 .logo{
     width: 60px;
