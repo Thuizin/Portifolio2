@@ -7,8 +7,11 @@
     /* background-color: #24252A; */
 }
 body{
-    background-image: url(../img/setup-background.jpg);
+    background-image: url(../img/background.png);
     background-repeat: no-repeat;
+    background-size: 100vw 98vh;
+    height: 1000px;
+    cursor: default;
 }
 
 
@@ -25,7 +28,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 10px 10%;
     backdrop-filter: blur(4px);
 }
 .logo{
@@ -45,7 +48,8 @@ header{
     transition: all 0.5s ease 0s;
 }
 .nav_links li a:hover{
-    color: #0088A9;
+    color: rgb(2, 180, 224);
+    font-size: 20px;
 }
 
 header button{
@@ -60,6 +64,7 @@ header button:hover{
     background-color: rgba(0, 136, 169, 0.8);
 }
 
+
 /* ===== MAIN ===== */
 main{
     display: flex;
@@ -67,8 +72,8 @@ main{
 main .name-img{
     color: white;
     text-align: center;
-    margin-left: 42vh;
-    margin-top: 15vw;
+    margin-left: 65vh;
+    margin-top: 10vw;
 }
 main .name-img h2{
     font-size: 70px;
@@ -78,13 +83,14 @@ main .name-img p{
 }
 
 .btn2{
-    height: 1vh;
-    background-color: black;
+    margin-left: 20px;
     border-radius: 50%;
     text-align: center;
     align-items: center;
     transition: all 0.5s ease;
     scale: 1.4;
+    background: none;
+    border: none;
 }
 .btn2:hover{
     scale: 1.8;
