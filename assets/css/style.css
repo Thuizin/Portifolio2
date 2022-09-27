@@ -4,9 +4,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    /* background-color: #24252A; */
+}
+body{
+    background-image: url(../img/setup-background.jpg);
+    background-repeat: no-repeat;
 }
 
+
+/* ===== HEADER ===== */
 li, a, button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -20,7 +26,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-image: url("./assets/img/setup-background.jpg");
+    backdrop-filter: blur(4px);
 }
 .logo{
     width: 60px;
@@ -42,7 +48,7 @@ header{
     color: #0088A9;
 }
 
-button{
+header button{
     padding: 9px 25px;
     background-color: rgba(0, 136, 169, 1);
     border: none;
@@ -50,6 +56,36 @@ button{
     cursor: pointer;
     transition: all 0.5s ease 0s;
 }
-button:hover{
+header button:hover{
     background-color: rgba(0, 136, 169, 0.8);
+}
+
+/* ===== MAIN ===== */
+main{
+    display: flex;
+}
+main .name-img{
+    color: white;
+    text-align: center;
+    margin-left: 42vh;
+    margin-top: 15vw;
+}
+main .name-img h2{
+    font-size: 70px;
+}
+main .name-img p{
+    font-size: 30px;
+}
+
+.btn2{
+    height: 1vh;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    scale: 1.4;
+}
+.btn2:hover{
+    scale: 1.8;
 }
