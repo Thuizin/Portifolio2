@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
 
 *{
     box-sizing: border-box;
@@ -8,10 +8,12 @@
 }
 body{
     background-image: url(../img/background.png);
+    backdrop-filter: blur(4px);
     background-repeat: no-repeat;
     background-size: 100vw 98vh;
     height: 1000px;
     cursor: default;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -33,7 +35,7 @@ header{
 }
 .logo{
     width: 60px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -62,6 +64,7 @@ header button{
 }
 header button:hover{
     background-color: rgba(0, 136, 169, 0.8);
+    scale: 1.1;
 }
 
 
@@ -79,19 +82,143 @@ main .name-img h2{
     font-size: 70px;
 }
 main .name-img p{
-    font-size: 30px;
+    margin-top: -15px;
+    font-size: 20px;
 }
 
 .btn2{
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
     border-radius: 50%;
     text-align: center;
     align-items: center;
     transition: all 0.5s ease;
-    scale: 1.4;
+    scale: 1.6;
     background: none;
     border: none;
 }
 .btn2:hover{
-    scale: 1.8;
+    scale: 2.4;
 }
+
+/* ===== ABOUT ===== */
+#about{
+    margin-top: 42.0vh;
+    height: 200vh;
+    background-color: #212121;
+}
+#about .container{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+#about .container .titulo{
+    color: #7060d8;
+    margin-left: 5vw;
+    margin-top: 100px;
+}
+#about .container .nome{
+    margin-top: 25vh;
+    margin-left: -9vw;
+    color: white;
+    letter-spacing: 3px;
+}
+#about .sobre{
+    margin-top: -35vh;
+    margin-left: -6.7vw;
+    padding-left: 800px;
+    padding-right: 50px;
+    color: rgb(231, 231, 231);
+    font-weight: 10;
+}
+
+#about .container .notbook{
+    width: 50%;
+    margin-top: 100px;
+    border-radius: 30px 2px 30px 2px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+}
+
+/* ===== ESPECIALIZAÇÃO ===== */
+#especializacao{
+    margin-top: 125px;
+    text-align: center;
+}
+#especializacao .titulo{
+    color: #7060d8;
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+#especializacao .espec{
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+#especializacao .card{
+    text-align: left;
+    background-color: #414141;
+    border-radius: 15px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 40px;
+    margin: 20px 0px 10px 20px;
+    width: 500px;
+    margin-bottom: 100px;
+    transition: all 0.3s ease-out;
+}
+#especializacao .card:hover {
+    background-color: #363668;
+    transform: translateY(-5px);
+    box-shadow: 7px 7px 13px 0px rgba(110, 110, 110, 0.22);
+    cursor: pointer;
+  }
+   
+#especializacao .card .titulo{
+    color: white;
+    margin-left: 20px;
+}
+#especializacao .card p{
+    color: rgb(200, 200, 200);
+}
+#especializacao .row{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#especializacao .card .row{
+    margin-right: 100vw;
+}
+#especializacao .card .img{
+    margin-left: 200px;
+}
+
+/* ===== PROJECTS START ===== */
+#projects .card{
+
+}
+/* ===== PROJECTS END ===== */
+/* ===== FOOTER START ===== */
+.footer .container{
+    text-align: center;
+    background-color: #282828;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.footer .container h2{
+    margin-bottom: 10px;
+    letter-spacing: 2.5px;
+}
+.footer .container a{
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+.footer .container a:hover{
+    color: rgba(210, 210, 210);
+}
+/* ===== FOOTER END ===== */
