@@ -222,3 +222,65 @@ main .name-img p{
     color: rgba(210, 210, 210);
 }
 /* ===== FOOTER END ===== */
+/* ===== RESPONSIVIDADE START ===== */
+@media (max-width: 1199px){
+
+}
+@media (max-width: 991px){
+    .name-img .container{
+        margin-left: -80px;
+    }
+    #about{
+        margin-top: 39.2vh
+    }
+    #about .container{
+        margin-bottom: -150px;
+    }
+    #about .container .notbook{
+    display: none;
+    }
+    #about .container .titulo{
+        margin-bottom: 50px;
+    }
+    #about .container .nome{
+        margin-left: -120px;
+        margin-top: 200px;
+    }
+    #about .sobre{
+        margin-top: 15px;
+        margin-left: -400px;
+    }
+    #especializacao .card{
+        width: 450px;
+    }
+    @media (max-width: 761px){
+        .name-img .container{
+            margin-left: -210px;
+        }
+        #about{
+            margin-top: 30.2vh;
+            height: 300vh;
+}
+        #about .container{
+            margin-bottom: -150px;
+        }
+        #about .container .notbook{
+        display: none;
+        }
+        #about .container .titulo{
+            margin-left: 200px;
+        }
+        #about .container .nome{
+            margin-top: 150px;
+            margin-left: -150px;
+        }
+        #about .sobre{
+            margin-top: 200px;
+            margin-left: -725px;
+        }
+        #especializacao .card{
+            width: 300px;
+        }
+    }
+}
+/* ===== RESPONSIVIDADE END ===== */
