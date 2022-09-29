@@ -166,7 +166,7 @@ main .name-img p{
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 40px;
     margin: 20px 0px 10px 20px;
-    width: 500px;
+    width: 550px;
     margin-bottom: 100px;
     transition: all 0.3s ease-out;
 }
@@ -198,6 +198,9 @@ main .name-img p{
 }
 
 /* ===== PROJECTS START ===== */
+#projects{
+    
+}
 #projects .card{
 
 }
