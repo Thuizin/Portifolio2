@@ -93,7 +93,7 @@ main .name-img p{
     text-align: center;
     align-items: center;
     transition: all 0.5s ease;
-    scale: 1.6;
+    scale: 1.8;
     background: none;
     border: none;
 }
@@ -284,6 +284,44 @@ main .name-img p{
         #especializacao .card{
             width: 300px;
         }
+    }
+}
+@media (max-width: 550px){
+    body{
+        background-image: url(../img/tela-cell.jpg);
+    }
+    .name-img .container{
+        margin-right: 160px;
+    }
+    .name-img .container .social{
+        margin-right: 30px;
+    }
+    .logo{
+        display: none;
+    }
+    #about{
+        margin-top: 18vh;
+        margin-right: 0px;
+    }
+    #about .container .titulo{
+        margin-left: 120px;
+    }
+    #especializacao .row{
+        display: block;
+    }
+    #especializacao .card{
+        margin-top: -60px;
+        width: 90vw;
+        margin-left: 25px;
+    }
+    #especializacao .espec{
+        margin-bottom: 15vh;
+    }
+    #especializacao .img{
+       display: none;
+    }
+    #especializacao .row .titulo{
+        display: flex;
     }
 }
 /* ===== RESPONSIVIDADE END ===== */
