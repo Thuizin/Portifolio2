@@ -293,6 +293,9 @@ main .name-img p{
     body{
         background-image: url(../img/tela-cell.jpg);
     }
+    .name-img .container{
+        margin-right: 160px;
+    }
     .name-img .container .social{
         margin-right: 30px;
     }
@@ -328,29 +331,8 @@ main .name-img p{
     .nav_links{
         display: none;
     }
-    .name-img .container{
-        margin-left: -250px;
-    }
-    .name-img .container .nome{
-        margin-left: -80px;
-}
-.social{
-    margin-left: -80px;
-}
-    .name-img .container .dev{
-        margin-right: 70px;
-    }
     #about{
-        margin-top: 10.0vh;
-        height: 500vh;
-    }
-    #about .container .titulo{
-        margin-left: -20px;
-        padding-right: 10vw;
-    }
-    #about .container .nome{
-        margin-top: 200px;
-        margin-left: -170px;
+        margin-top: -14.0vh;
     }
 }
 /* ===== RESPONSIVIDADE END ===== */
