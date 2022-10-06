@@ -10,10 +10,11 @@ body{
     background-image: url(../img/background.png);
     backdrop-filter: blur(4px);
     background-repeat: no-repeat;
-    background-size: 100vw 98vh;
+    background-size: 108%;
     height: 1000px;
     cursor: default;
     font-family: 'Poppins', sans-serif;
+    background-color: #212121;
 }
 
 
@@ -104,8 +105,6 @@ main .name-img p{
 /* ===== ABOUT ===== */
 #about{
     margin-top: 33.0vh;
-    height: 200vh;
-    background-color: #212121;
 }
 #about .container{
     margin-left: 100px;
@@ -265,7 +264,6 @@ main .name-img p{
         }
         #about{
             margin-top: 30.2vh;
-            height: 300vh;
 }
         #about .container{
             margin-bottom: -150px;
@@ -349,15 +347,24 @@ main .name-img p{
     }
     #about{
         margin-top: 10.0vh;
-        height: 500vh;
     }
     #about .container .titulo{
-        margin-left: -20px;
+        margin-left: -50px;
         padding-right: 10vw;
+        margin-top: 300px;
     }
     #about .container .nome{
-        margin-top: 200px;
-        margin-left: -170px;
+        margin-top: 400px;
+        margin-left: -150px;
+    }
+    .name-img .container .nome{
+        margin-left: -150px;        
+    }
+    .name-img .container .dev{
+        margin-left: -80px;        
+    }
+    .name-img .container .social{
+        margin-left: -150px;
     }
 }
 /* ===== RESPONSIVIDADE END ===== */
