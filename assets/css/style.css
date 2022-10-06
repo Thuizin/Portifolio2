@@ -15,6 +15,7 @@ body{
     cursor: default;
     font-family: 'Poppins', sans-serif;
     background-color: #212121;
+    display: flex;
 }
 
 
@@ -225,6 +226,27 @@ main .name-img p{
     color: rgba(210, 210, 210);
 }
 /* ===== FOOTER END ===== */
+/* ===== VOLTAR AO TOPO START ====== */
+    #link-topo{
+        text-decoration: none;
+        color: white;
+        background-color: rgb(182, 3, 107);
+        padding: 10px;
+        border-radius: 10px;
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        box-shadow: 3px 3px 10px #333;
+        transition: all 0.5s ease;
+    }
+    #link-topo:hover{
+        box-shadow: none;
+        background-color: white;
+        color:  rgb(141, 3, 83);
+        text-align: center;
+        width: 50px;
+    }
+/* ===== VOLTAR AO TOPO END ====== */
 /* ===== RESPONSIVIDADE START ===== */
 @media (max-width: 1199px){
 
@@ -294,8 +316,8 @@ main .name-img p{
     }
 }
 @media (max-width: 550px){
-    body{
-        background-image: url(../img/tela-cell.jpg);
+    #link-topo{
+        display: none;
     }
     .nav_links{
         display: none;
