@@ -7,8 +7,8 @@
     /* background-color: #24252A; */
 }
 body{
-    background-image: url(../img/background.png);
-    backdrop-filter: blur(4px);
+    background-image: url(../img/background2.png);
+    backdrop-filter: blur(6px);
     background-repeat: no-repeat;
     background-size: 108%;
     height: 1000px;
@@ -53,6 +53,7 @@ header{
 .nav_links li a:hover{
     color: rgb(2, 180, 224);
     font-size: 20px;
+    text-decoration: underline red 1px;
 }
 
 header button{
@@ -104,7 +105,7 @@ main .name-img p{
 
 /* ===== ABOUT ===== */
 #about{
-    margin-top: 100.0vh;
+    margin-top: 40.0vh;
 }
 #about .container{
     margin-left: 100px;
@@ -140,6 +141,11 @@ main .name-img p{
     border-bottom: 3px solid white;
     border-top: 1px solid white;
     border-left: 1px solid white;
+    box-shadow: 10px 5px 50px #151515;
+    transition: all 0.5s ease;
+}
+#about .container .notbook:hover{
+    box-shadow: none;
 }
 
 /* ===== ESPECIALIZAÇÃO ===== */
@@ -197,12 +203,7 @@ main .name-img p{
 }
 
 /* ===== PROJECTS START ===== */
-#projects{
-    
-}
-#projects .card{
 
-}
 /* ===== PROJECTS END ===== */
 /* ===== FOOTER START ===== */
 .footer .container{
@@ -381,3 +382,19 @@ main .name-img p{
     }
 }
 /* ===== RESPONSIVIDADE END ===== */
+
+/* SCROLL */
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+    height: 1px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #282828;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(155, 0, 0);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #282828;  /* creates padding around scroll thumb */
+  }
