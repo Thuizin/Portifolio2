@@ -104,7 +104,7 @@ main .name-img p{
 
 /* ===== ABOUT ===== */
 #about{
-    margin-top: 33.0vh;
+    margin-top: 100.0vh;
 }
 #about .container{
     margin-left: 100px;
@@ -327,11 +327,6 @@ main .name-img p{
         display: flex;
     }
 }
-@media (max-width: 415){
-    .name-img .container{
-        margin-left: -80px;
-    }
-}
 @media (max-width: 350px){
     .name-img .container{
         margin-left: -250px;
@@ -365,6 +360,24 @@ main .name-img p{
     }
     .name-img .container .social{
         margin-left: -150px;
+    }
+    .btn1{
+        margin-left: -1000px;
+    }
+    #about .sobre{
+        padding-left: 0px;
+        margin-left: 20px;
+    }
+    #about .container .titulo{
+        color: #7060d8;
+        margin-left: 0vw;
+        margin-top: 300px;
+    }
+    #about .container .nome{
+        margin-left: -200px;
+    }
+    .container-geral{
+        margin-left: 25px;
     }
 }
 /* ===== RESPONSIVIDADE END ===== */
