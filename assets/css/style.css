@@ -343,7 +343,7 @@ main .name-img p{
         margin-left: 150px;
     }
 }
-@media (max-width: 550px){
+@media (max-width: 550px){ 
     .name-img .container .social{
         margin-right: 30px;
     }
