@@ -309,13 +309,39 @@ main .name-img p{
             width: 300px;
         }
         #especiazacao .row{
-            display: none;
+            display: block;
         }
     }
 }
 @media (max-width: 620px){
+    body{
+        background-size: 620px 550px;
+    }
     #home .logo{
         display: none;
+    }
+    #especializacao .row{
+        display: block;
+    }
+    #especializacao .card{          
+        width: 90vw;
+        margin-left: 25px;
+    }
+    .btn1{
+        display: none;
+    }
+    .name-img .nome,
+    .name-img .dev{
+        margin-left: -65px;
+    }
+    .name-img .nome{
+        margin-top: 50px;
+    }
+    .name-img .social{
+        margin-left: -85px;
+    }
+    #home{
+        margin-left: 80px;
     }
 }
 @media (max-width: 550px){
