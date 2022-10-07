@@ -276,7 +276,7 @@ main .name-img p{
     @media (max-width: 761px){
         body{
             background-image: url(../img/tela-cell.jpg);
-            background-size: 761px 550px;
+            background-size: 760px 550px;
         }    
         .name-img .container{
             margin-left: -210px;
