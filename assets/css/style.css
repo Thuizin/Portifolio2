@@ -344,12 +344,6 @@ main .name-img p{
     }
 }
 @media (max-width: 550px){
-    #link-topo{
-        display: none;
-    }
-    .nav_links{
-        display: none;
-    }
     .name-img .container .social{
         margin-right: 30px;
     }
