@@ -308,6 +308,9 @@ main .name-img p{
         #especializacao .card{
             width: 300px;
         }
+        #especiazacao .row{
+            display: none;
+        }
     }
 }
 @media (max-width: 620px){
@@ -331,9 +334,6 @@ main .name-img p{
     }
     #about .container .titulo{
         margin-left: 120px;
-    }
-    #especializacao .row{
-        display: block;
     }
     #especializacao .card{
         margin-top: -60px;
