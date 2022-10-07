@@ -116,8 +116,12 @@ main .name-img p{
 
 #about .container .titulo{
     color: #7060d8;
-    margin-left: 5vw;
+    margin-left: 18vw;
     margin-top: 100px;
+}
+#about .container .nome{
+    margin-top: 150px;
+    margin-left: -300px;
 }
 #about .sobre{
     margin-top: -35vh;
@@ -272,6 +276,7 @@ main .name-img p{
     @media (max-width: 761px){
         body{
             background-image: url(../img/tela-cell.jpg);
+            background-size: 761px 550px;
         }    
         .name-img .container{
             margin-left: -210px;
@@ -424,7 +429,7 @@ main .name-img p{
 
 /* SCROLL */
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 10px;               /* width of the entire scrollbar */
     height: 1px;
   }
   
