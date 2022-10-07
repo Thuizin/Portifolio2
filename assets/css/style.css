@@ -119,12 +119,6 @@ main .name-img p{
     margin-left: 5vw;
     margin-top: 100px;
 }
-#about .container .nome{
-    margin-top: 25vh;
-    margin-left: -9vw;
-    color: white;
-    letter-spacing: 3px;
-}
 #about .sobre{
     margin-top: -35vh;
     margin-left: -6.7vw;
@@ -159,11 +153,6 @@ main .name-img p{
     font-size: 0.8rem;
     margin-bottom: 30px;
     letter-spacing: 2px;
-}
-#especializacao .espec{
-    color: white;
-    margin-bottom: 20px;
-    letter-spacing: 5px;
 }
 #especializacao .card{
     text-align: left;
@@ -246,6 +235,12 @@ main .name-img p{
         text-align: center;
         width: 50px;
     }
+    .nome{
+    color: white;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 1.5rem;    
+    }
 /* ===== VOLTAR AO TOPO END ====== */
 /* ===== RESPONSIVIDADE START ===== */
 @media (max-width: 1199px){
@@ -266,10 +261,6 @@ main .name-img p{
     }
     #about .container .titulo{
         margin-bottom: 50px;
-    }
-    #about .container .nome{
-        margin-left: -120px;
-        margin-top: 200px;
     }
     #about .sobre{
         margin-top: 15px;
@@ -343,6 +334,9 @@ main .name-img p{
     #home{
         margin-left: 80px;
     }
+    #about .container .titulo{
+        margin-left: 150px;
+    }
 }
 @media (max-width: 550px){
     #link-topo{
@@ -365,9 +359,6 @@ main .name-img p{
         margin-top: -60px;
         width: 90vw;
         margin-left: 25px;
-    }
-    #especializacao .espec{
-        margin-bottom: 15vh;
     }
     #especializacao .img{
        display: none;
